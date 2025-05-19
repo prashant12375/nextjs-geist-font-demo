@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///project/sandbox/user-workspace/src/app/layout.tsx"],"sourcesContent":["\"use client\";\n\nimport React from \"react\";\n\nexport const metadata = {\n  title: \"Flent Clone\",\n  description: \"React frontend clone of flent.in with GraphQL backend\",\n};\n\nconst RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {\n  return (\n    <html lang=\"en\" className=\"scroll-smooth\">\n      <head />\n      <body className=\"bg-white text-black\">{children}</body>\n    </html>\n  );\n};\n\nexport default RootLayout;\n"],"names":[],"mappings":";;;;;AAAA;;AAIO,MAAM,WAAW;IACtB,OAAO;IACP,aAAa;AACf;AAEA,MAAM,aAAsD,CAAC,EAAE,QAAQ,EAAE;IACvE,qBACE,6LAAC;QAAK,MAAK;QAAK,WAAU;;0BACxB,6LAAC;;;;;0BACD,6LAAC;gBAAK,WAAU;0BAAuB;;;;;;;;;;;;AAG7C;KAPM;uCASS","debugId":null}}]
+}
